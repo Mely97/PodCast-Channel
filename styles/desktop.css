@@ -1,0 +1,197 @@
+@media only screen and (min-width: 768px) {
+
+    .logo {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        position: relative;
+        padding: 7px;
+        margin-left: 20px;
+    }
+    
+    .bar {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 100vw;
+        height: 12vh;
+        position: relative;
+    }
+    ul.sections {
+        visibility: visible;
+        position: absolute;
+        top: 0;
+        margin-right: 24px;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        list-style-type: none;
+        align-self: flex-start;
+        background-color:white;
+        height: 12vh;
+        width: 40%;
+      } 
+    li a {
+        display: inline;
+        text-align: center;
+        padding: 6px;
+        text-decoration: none;
+        vertical-align: middle;
+    }
+    
+    a {
+        font-family: 'IBM Plex Mono', monospace;
+        text-transform: uppercase;
+        text-decoration: none;
+        font-size: 16px;
+        color: #060A24;
+        letter-spacing: 0;
+        line-height: 28px;
+    }
+    a:hover {
+        color: #00F3BB;
+        font-family: 'IBM Plex Mono', monospace;
+        text-transform: uppercase;
+        text-decoration: line-through;
+        font-size: 16px;
+        letter-spacing: 0;
+        line-height: 28px;
+    }
+    a:active {
+        color: #8F060A24;
+        font-family: 'IBM Plex Mono', monospace;
+        text-transform: uppercase;
+        text-decoration: line-through;
+        font-size: 16px;
+        letter-spacing: 0;
+        line-height: 28px;
+    }
+    .btn {
+        display: none;
+    }
+    h1 {
+        font-size: 64px;
+        line-height: 84px;
+        margin-left: 150px;
+    }
+    .pale {
+        display: inline;
+    }
+    .dot {
+        color: rgb(0, 0, 236);
+    }
+    p {
+        margin-left: 150px;
+        font-size: 16px;
+        line-height: 24px;
+        margin-top: 0px;
+        margin-bottom: 16px;
+        font-weight: normal;
+        width: 628px;
+    }
+    form.more {
+        width: 226px;
+        height: 56px;
+        font-size: 18px;
+        line-height: 24px;
+        margin-left: 150px;
+        margin-bottom: 150px;
+    }
+    .more {
+        height: 56px;
+    }
+    h2 {
+        font-size: 48px;
+        line-height: 62px;
+        margin-left: 125px;
+        padding: 25px;
+    }
+    .container {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+    .episode {
+        margin-top: 5px;
+        margin-bottom: 6px;
+        width: 584px;
+    }
+    div.phone {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        margin: auto;
+    }
+    div.img {
+        width: 457px;
+    }
+    .text {
+        width: 464px;
+        margin-left: 0px;
+    }
+    .break {
+        display: inline;
+    }
+    .guest{
+        width: 33.3%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .gallery {
+        width: 100vw;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin-left: 50%;
+        transform: translateX(-50%);
+        position: relative;
+    }
+    div.icons {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        width: 75vw;
+        margin: auto;
+    }
+    div.item {
+        vertical-align: top;
+        display: inline-block;
+        text-align: center;
+        width: 18%;
+        margin-bottom: 100px;
+    }
+    form.playbtn {
+        width: 345px;
+        height: 56px;
+        font-size: 18px;
+        line-height: 24px;
+        margin: auto;
+    }
+    .playbtn {
+        height: 56px;
+    }
+    div.container2 {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        align-items: center;
+    }
+    div.footer {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center; 
+    }
+    div.social-media {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+    }
+    .media {
+        padding: 20px;
+    }
+    }
